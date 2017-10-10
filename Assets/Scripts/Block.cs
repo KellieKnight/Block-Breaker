@@ -4,6 +4,8 @@ using UnityEngine;
 
 public class Block : MonoBehaviour {
 
+    public AudioClip breakSound;
+
     public Sprite[] hitSprites;
 
     public static int blockCount = 0;
@@ -49,6 +51,7 @@ public class Block : MonoBehaviour {
 
         if (timesHit >= maxHits)
         {
+            AudioSource.PlayClipAtPoint(breakSound, Camera.main.transform.position);
             blockCount--;
             levelManager.BlockDestroyed();
             Destroy(gameObject);
