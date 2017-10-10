@@ -1,0 +1,21 @@
+fileFormatVersion: 2
+guid: e0a3a5469ab9e8244a507bbd4925a24c
+timeCreated: 1507524043
+licenseType: Free
+TrueTypeFontImporter:
+  serializedVersion: 4
+  fontSize: 16
+  forceTextureCase: -2
+  characterSpacing: 0
+  characterPadding: 1
+  includeFontData: 1
+  fontName: Blockhead
+  fontNames:
+  - Blockhead
+  fallbackFontReferences: []
+  customCharacters: 
+  fontRenderingMode: 0
+  ascentCalculationMode: 1
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
