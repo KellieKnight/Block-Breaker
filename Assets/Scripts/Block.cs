@@ -10,6 +10,8 @@ public class Block : MonoBehaviour {
 
     public static int blockCount = 0;
 
+    public GameObject sparkle;
+
     private LevelManager levelManager;
     private int timesHit;
 
@@ -53,6 +55,10 @@ public class Block : MonoBehaviour {
         {
             AudioSource.PlayClipAtPoint(breakSound, Camera.main.transform.position);
             blockCount--;
+
+
+            Instantiate(sparkle, gameObject.transform.position, Quaternion.identity);
+
             levelManager.BlockDestroyed();
             Destroy(gameObject);
         }

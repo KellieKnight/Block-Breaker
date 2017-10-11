@@ -80,6 +80,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   breakSound: {fileID: 8300000, guid: f343aa562e270754f84f027b2c001f07, type: 3}
   hitSprites: []
+  sparkle: {fileID: 1125920509616730, guid: 8435b7b825fc2ae4fa348abbcecc21ea, type: 2}
 --- !u!212 &212760738094103578
 SpriteRenderer:
   m_ObjectHideFlags: 1
